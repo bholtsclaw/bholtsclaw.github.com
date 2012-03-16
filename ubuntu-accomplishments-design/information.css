@@ -1,291 +1,292 @@
 #accomplishment {
--moz-border-radius:8px;
--webkit-border-radius:8px;
-background:#fff;
-border:1px solid #eee;
-border-radius:8px;
-padding:0
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	padding: 0
 }
 
 #accomplishment .block {
-margin-top:10px
+	margin-top: 10px
 }
 
 #accomplishment-badge {
--moz-border-radius:8px;
--webkit-border-radius:8px;
-background:#DD4814;
-border:0;
-border-radius:8px;
-color:#fff;
-font-size:100%;
-margin:0;
-padding:0;
-text-align:left
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #DD4814;
+	border: 0;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left
 }
 
 #accomplishment-badge .icon {
--moz-border-radius:8px;
--webkit-border-radius:8px;
-background-color:#fff;
-border-radius:8px;
-float:left;
-height:100px;
-margin:10px;
-padding:10px
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #fff;
+	border-radius: 8px;
+	float: left;
+	height: 100px;
+	margin: 10px;
+	padding: 10px
 }
 
 #accomplishment-badge p {
-font-size:80%
+	font-size: 80%
 }
 
 #accomplishment-badge ul {
-margin-left:-20px
+	margin-left: -20px
 }
 
 #accomplishment-more {
--moz-border-radius:8px;
--webkit-border-radius:8px;
-background:#fff;
-border:1px solid #eee;
-border-radius:8px;
-padding:0
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	padding: 0
 }
 
 #divider {
-border-right:1px dotted #333
+	border-right: 1px dotted #333
 }
 
 #tipspitfalls {
--moz-border-radius:8px;
--webkit-border-radius:8px;
-background-color:#eee;
-border:0;
-border-radius:8px;
-font-style:italic;
-margin:0 auto;
-overflow:hidden;
-padding:0
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #eee;
+	border: 0;
+	border-radius: 8px;
+	font-style: italic;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0
 }
 
 .alpha {
-margin-left:0
+	margin-left: 0
 }
 
 .clear {
-clear:both;
-display:block;
-height:0;
-overflow:hidden;
-visibility:hidden;
-width:0
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0
 }
 
 .clearfix:after {
-clear:both
+	clear: both
 }
 
 .clearfix:before,.clearfix:after {
-content:'\00020';
-display:block;
-height:0;
-overflow:hidden;
-visibility:hidden;
-width:0
+	content: '\00020';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0
 }
 
 .container_8 {
-margin-left:auto;
-margin-right:auto;
-width:696px
+	margin-left: auto;
+	margin-right: auto;
+	width: 696px
 }
 
 .container_8 .grid_1 {
-width:67px
+	width: 67px
 }
 
 .container_8 .grid_2 {
-width:154px
+	width: 154px
 }
 
 .container_8 .grid_3 {
-width:241px
+	width: 241px
 }
 
 .container_8 .grid_4 {
-width:328px
+	width: 328px
 }
 
 .container_8 .grid_5 {
-width:415px
+	width: 415px
 }
 
 .container_8 .grid_6 {
-width:502px
+	width: 502px
 }
 
 .container_8 .grid_7 {
-width:589px
+	width: 589px
 }
 
 .container_8 .grid_8 {
-width:676px
+	width: 676px
 }
 
 .container_8 .prefix_1 {
-padding-left:87px
+	padding-left: 87px
 }
 
 .container_8 .prefix_2 {
-padding-left:174px
+	padding-left: 174px
 }
 
 .container_8 .prefix_3 {
-padding-left:261px
+	padding-left: 261px
 }
 
 .container_8 .prefix_4 {
-padding-left:348px
+	padding-left: 348px
 }
 
 .container_8 .prefix_5 {
-padding-left:435px
+	padding-left: 435px
 }
 
 .container_8 .prefix_6 {
-padding-left:522px
+	padding-left: 522px
 }
 
 .container_8 .prefix_7 {
-padding-left:609px
+	padding-left: 609px
 }
 
 .container_8 .pull_1 {
-left:-87px
+	left: -87px
 }
 
 .container_8 .pull_2 {
-left:-174px
+	left: -174px
 }
 
 .container_8 .pull_3 {
-left:-261px
+	left: -261px
 }
 
 .container_8 .pull_4 {
-left:-348px
+	left: -348px
 }
 
 .container_8 .pull_5 {
-left:-435px
+	left: -435px
 }
 
 .container_8 .pull_6 {
-left:-522px
+	left: -522px
 }
 
 .container_8 .pull_7 {
-left:-609px
+	left: -609px
 }
 
 .container_8 .push_1 {
-left:87px
+	left: 87px
 }
 
 .container_8 .push_2 {
-left:174px
+	left: 174px
 }
 
 .container_8 .push_3 {
-left:261px
+	left: 261px
 }
 
 .container_8 .push_4 {
-left:348px
+	left: 348px
 }
 
 .container_8 .push_5 {
-left:435px
+	left: 435px
 }
 
 .container_8 .push_6 {
-left:522px
+	left: 522px
 }
 
 .container_8 .push_7 {
-left:609px
+	left: 609px
 }
 
 .container_8 .suffix_1 {
-padding-right:87px
+	padding-right: 87px
 }
 
 .container_8 .suffix_2 {
-padding-right:174px
+	padding-right: 174px
 }
 
 .container_8 .suffix_3 {
-padding-right:261px
+	padding-right: 261px
 }
 
 .container_8 .suffix_4 {
-padding-right:348px
+	padding-right: 348px
 }
 
 .container_8 .suffix_5 {
-padding-right:435px
+	padding-right: 435px
 }
 
 .container_8 .suffix_6 {
-padding-right:522px
+	padding-right: 522px
 }
 
 .container_8 .suffix_7 {
-padding-right:609px
+	padding-right: 609px
 }
 
 .grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8 {
-display:inline;
-float:left;
-margin-left:10px;
-margin-right:10px;
-position:relative
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative
 }
 
 .left {
-float:left;
-margin-bottom:-1000px;
-padding-bottom:1000px
+	float: left;
+	margin-bottom: -1000px;
+	padding-bottom: 1000px
 }
 
 .omega {
-margin-right:0
+	margin-right: 0
 }
 
-.push_1,.pull_1,.push_2,.pull_2,.push_3,.pull_3,.push_4,.pull_4,.push_5,.pull_5,.push_6,.pull_6,.push_7,.pull_7,.push_8,.pull_8 {
-position:relative
+.push_1,.pull_1,.push_2,.pull_2,.push_3,.pull_3,.push_4,.pull_4,.push_5,.pull_5,.push_6,.pull_6,.push_7,.pull_7,.push_8,.pull_8
+	{
+	position: relative
 }
 
 body {
-color:#333;
-font-family:Ubuntu, Times, serif;
-min-width:696px
+	color: #333;
+	font-family: Ubuntu, Times, serif;
+	min-width: 696px
 }
 
 h2 {
-text-decoration:underline dotted
+	text-decoration: underline dotted
 }
 
 ol {
-font-size:80%;
-padding:5px 20px
+	font-size: 80%;
+	padding: 5px 20px
 }
 
 ul {
-font-size:80%;
-font-style:italic
+	font-size: 80%;
+	font-style: italic
 }
 
 ul.none {
-list-style-type:none
+	list-style-type: none
 }
