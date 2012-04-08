@@ -1,5 +1,7 @@
 a {
   color: #dd4814;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 #accomplishment {
@@ -44,16 +46,20 @@ a {
 }
 
 #accomplishment-badge ul {
-	margin-left: -20px
+	margin-left: -40px
 }
 
 #accomplishment-more {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-  background: #fff no-repeat -15px -16px;
+  background: #fff;
   border: 1px solid #eee;
 	border-radius: 4px;
 	padding: 0
+}
+
+#accomplishment-more {
+  background: #fff url("../images/circle.png") no-repeat -20px -30px;
 }
 
 #divider {
@@ -283,10 +289,10 @@ h2 {
 
 ol {
 	font-size: 80%;
-	padding: 5px 20px
+	padding: 5px 20px;
 }
 
-ul li {
+li {
     padding-bottom: 5px;
 }
 ul {
@@ -296,4 +302,18 @@ ul {
 
 ul.none {
 	list-style-type: none
+}
+
+div#howto ol{
+  padding-top: 20px;
+}
+
+div#howto i{
+  color: #fff;
+  float: left;
+  font-size: 3em;
+}
+
+div#howto h2{
+  margin-left: 100px;
 }
