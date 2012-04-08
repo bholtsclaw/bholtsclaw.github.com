@@ -1,9 +1,13 @@
+a {
+  color: #dd4814;
+}
+
 #accomplishment {
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	background: #fff;
 	border: 1px solid #eee;
-	border-radius: 8px;
+	border-radius: 4px;
 	padding: 0
 }
 
@@ -12,11 +16,11 @@
 }
 
 #accomplishment-badge {
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	background: #DD4814;
 	border: 0;
-	border-radius: 8px;
+	border-radius: 4px;
 	color: #fff;
 	font-size: 100%;
 	margin: 0;
@@ -25,10 +29,10 @@
 }
 
 #accomplishment-badge .icon {
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	background-color: #fff;
-	border-radius: 8px;
+	border-radius: 4px;
 	float: left;
 	height: 100px;
 	margin: 10px;
@@ -44,11 +48,11 @@
 }
 
 #accomplishment-more {
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	background: #fff;
-	border: 1px solid #eee;
-	border-radius: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+  background: #fff no-repeat -15px -16px;
+  border: 1px solid #eee;
+	border-radius: 4px;
 	padding: 0
 }
 
@@ -57,11 +61,11 @@
 }
 
 #tipspitfalls {
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	background-color: #eee;
 	border: 0;
-	border-radius: 8px;
+	border-radius: 4px;
 	font-style: italic;
 	margin: 0 auto;
 	overflow: hidden;
@@ -282,6 +286,9 @@ ol {
 	padding: 5px 20px
 }
 
+ul li {
+    padding-bottom: 5px;
+}
 ul {
 	font-size: 80%;
 	font-style: italic
