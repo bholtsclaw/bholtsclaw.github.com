@@ -40,7 +40,7 @@
       });
       css_link.appendTo('head');
       var dfuLink = $('#download-for-ubuntu').data().link; 
-      var jsonp_url = "http://www.assets-online.com/api/json/download-button/ubuntu.php?callback=cb&linkto="+dfuLink+"&callback=?";
+      var jsonp_url = "http://www.assets-online.com/api/json/download-button/ubuntu.php?linkto="+dfuLink+"&callback=?";
       $.getJSON(jsonp_url, function(data) {
         $('#download-for-ubuntu').html(data.html);
       });
