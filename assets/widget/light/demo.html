@@ -1,0 +1,43 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <style>
+		p
+		{
+			padding: 0px;
+			margin: 0px;
+		}
+		
+		ul,li
+		{
+			list-style: none;
+			float:left;
+			width: 100%;
+			padding: 10px 0;
+		}
+		
+		li
+		{
+			width: 50%;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="luxCountdown.css" />
+	<script type="text/javascript" src="luxUtilities.min.js"></script>
+	<script type="text/javascript" src="luxCountdown.min.js"></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			var a=new Date(2012, 5, 18, 0, 0, 0, 1);
+			var c=new Date(2012, 6, 9, 23, 59, 0, 0);
+			var b=new luxCountdown({title:"Ubuntu<br/>App Developer Showdown!",start:a,end:c,text:"<br/>Soon they'll announce a Winner!<br>Read about the progress on <a href='//developer.ubuntu.com/showdown'>http://developer.ubuntu.com/showdown</a><br>Follow updates <a href='//twitter.com/ubuntuappdev'>@ubuntuappdev</a> Too!",startText:"Contest Started: ",endText:"Ends: 9 Jul 2012!"});
+		document.getElementById("app_showdown_widget_01").appendChild(b.getCountdown());};
+  </script>
+</head>
+
+<body>
+
+	<div id="app_showdown_widget_01">	
+
+</body>
+</html>		
