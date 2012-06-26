@@ -6,10 +6,8 @@
   function d() {
     b(document).ready(function(a) {
       a("<link>", {rel:"stylesheet", type:"text/css", href:"/assets/widget/light/luxCountdown.css?ver=42"}).appendTo("head");
-      var b = "/assets/widget/light/light.json?ver=42&callback=cb";
-      a.load(b, function(b) {
-        a("#app_showdown_widget_01").html(b.html)
-      })
+      //var b = "/assets/widget/light/light.json?ver=42&callback=cb";
+      a("#app_showdown_widget_01").load("/assets/widget/light/light.json?ver=42&callback=cb");
     })
   }
   var b;
