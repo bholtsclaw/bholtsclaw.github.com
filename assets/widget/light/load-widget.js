@@ -18,7 +18,7 @@
     a.readyState ? a.onreadystatechange = function() {
       ("complete" === this.readyState || "loaded" === this.readyState) && c()
     } : a.onload = c;
-    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(a)
+    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(a);
   }else {
     b = window.jQuery, d()
   }

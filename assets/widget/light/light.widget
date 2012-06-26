@@ -1,21 +1,19 @@
-
-<script type='text/javascript' src='/assets/widget/light/luxUtilities.min.js?ver=42'></script>
-<script type='text/javascript' src='/assets/widget/light/luxCountdown.min.js?ver=42'></script>
-<script type='text/javascript' src='https://use.typekit.com/cvz7ckq.js'></script>
-<script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
 <script type='text/javascript'>
-    window.onload=function(){
-	  var a=new Date(2012, 5, 18, 0, 0, 0, 1);
-	  var c=new Date(2012, 6, 9, 23, 59, 0, 0);
-	  var b=new luxCountdown({
-	  	title: "<img id='app-showdown-widget-logo' src='https://developer.ubuntu.com/wp-content/themes/wordpress-theme-ubuntudeveloper/img/logo-ubuntu.png'><span class='app_showdown_widget_header'><span class='ufont'>App Developer</span></span> <div id='app_showdown_widget_action_title'><span class='ufont'><em>Showdown !</em></span></div>",
-	  	start: a,
-	  	end: c,
-	  	text: "<br><hr size='1' noshadow shadow='none' color='#ccc' border-color='#ccc' style='width: 95%;padding: -25px 0 0 0;' /><div class='copy'><span class='ufont'>ubuntu's</span> <a href='//developer.ubuntu.com'>Developer Community</a> is growing. Come Check out the new <a href='//developer.ubuntu.com/'>Ubuntu Dev Portal</a>. We send twitter status updates <a href='//twitter.com/ubuntuappdev'>@ubuntuappdev</a> too !</div><hr size='1' noshadow shadow='none' color='#ccc' border-color='#ccc' style='width: 95%;padding: -25px 0 0 0;' /></div>",
-	  	startText: '',
-	  	endText: ''
-	  });
-     window.onload=function(){ document.getElementById('app_showdown_widget_02').appendChild(b.getCountdown());};
+// Input 0
+var k=null,m={i:function(a,c){return a.className.match(RegExp("(\\s|^)"+c+"(\\s|$)"))},b:function(a,c){this.i(a,c)||(a.className+=" "+c)},s:function(a,c){this.i(a,c)&&(a.className=a.className.replace(RegExp("(\\s|^)"+c+"(\\s|$)")," "))},getElementsByClassName:function(a,c,e){getElementsByClassName=document.getElementsByClassName?function(a,c,d){for(var d=d||document,a=d.getElementsByClassName(a),c=c?RegExp("\\b"+c+"\\b","i"):k,d=[],g,f=0,e=a.length;f<e;f+=1)g=a[f],(!c||c.test(g.nodeName))&&d.push(g);
+return d}:document.evaluate?function(a,c,d){for(var c=c||"*",d=d||document,g=a.split(" "),f="",e="http://www.w3.org/1999/xhtml"===document.documentElement.namespaceURI?"http://www.w3.org/1999/xhtml":k,a=[],n,l=0,p=g.length;l<p;l+=1)f+="[contains(concat(' ', @class, ' '), ' "+g[l]+" ')]";try{n=document.evaluate(".//"+c+f,d,e,0,k)}catch(x){n=document.evaluate(".//"+c+f,d,k,0,k)}for(;c=n.iterateNext();)a.push(c);return a}:function(a,c,d){var c=c||"*",d=d||document,g=a.split(" "),a=[],c="*"===c&&d.all?
+d.all:d.getElementsByTagName(c),d=[],f;f=0;for(var e=g.length;f<e;f+=1)a.push(RegExp("(^|\\s)"+g[f]+"(\\s|$)"));for(var e=0,n=c.length;e<n;e+=1){g=c[e];f=!1;for(var l=0,p=a.length;l<p&&!(f=a[l].test(g.className),!f);l+=1);f&&d.push(g)}return d};return getElementsByClassName(a,c,e)},q:function(a){do a=a.nextSibling;while(a&&1!=a.nodeType);return a},r:function(a){do a=a.previousSibling;while(a&&1!=a.nodeType);return a}};
+// Input 1
+function o(){var a={title:"<img id='app-showdown-widget-logo' src='https://developer.ubuntu.com/wp-content/themes/wordpress-theme-ubuntudeveloper/img/logo-ubuntu.png'><span class='app_showdown_widget_header'><span class='ufont'>App Developer</span></span> <div id='app_showdown_widget_action_title'><span class='ufont'><em>Showdown !</em></span></div>",start:new Date(2012,5,18,0,0,0,1),end:new Date(2012,6,9,23,59,0,0),text:"<br><hr size='1' noshadow shadow='none' color='#ccc' border-color='#ccc' style='width: 95%;padding: -25px 0 0 0;' /><div class='copy'><span class='ufont'>ubuntu's</span> <a href='//developer.ubuntu.com'>Developer Community</a> is growing. Come Check out the new <a href='//developer.ubuntu.com/'>Ubuntu Dev Portal</a>. We send twitter status updates <a href='//twitter.com/ubuntuappdev'>@ubuntuappdev</a> too !</div><hr size='1' noshadow shadow='none' color='#ccc' border-color='#ccc' style='width: 95%;padding: -25px 0 0 0;' /></div>",
+p:"",n:""};this.a={};this.g=this.e=k;this.d={k:" Day ",j:" Days "};this.f=":";this.h=" - : - : -";this.a=a?a:{};a=document.createElement("div");m.b(a,"lux-countdown");var c=document.createElement("p");m.b(c,"lux-countdown-title");c.innerHTML=q(this.a.title);var e=document.createElement("p");m.b(e,"lux-countdown-text");e.innerHTML=q(this.a.text);var h=document.createElement("p");m.b(h,"lux-countdown-countdown");var j=document.createElement("span");h.appendChild(j);j=document.createElement("p");m.b(j,
+"lux-countdown-datesWrap");var d=document.createElement("span");m.b(d,"lux-countdown-start");d.innerHTML=q(this.a.p);j.appendChild(d);d=document.createElement("span");m.b(d,"lux-countdown-perc");j.appendChild(d);d=document.createElement("span");m.b(d,"lux-countdown-end");d.innerHTML=q(this.a.n);j.appendChild(d);d=document.createElement("p");m.b(d,"lux-countdown-countdownBar");var g=document.createElement("span");m.b(g,"lux-countdown-countdownBar-bar");d.appendChild(g);a.appendChild(c);a.appendChild(e);
+a.appendChild(h);a.appendChild(j);a.appendChild(d);this.c=a;r(this)}function q(a){if(""==a||a==k||"undefined"===typeof a)a="";return a}function s(a){var c=!1;if(""==a||a==k||"undefined"===typeof a)c=!0;return c}
+function r(a){a.e=new Date(a.a.start);a.g=new Date(a.a.end);s(a.a.m)||(a.d.k=a.a.m);s(a.a.l)||(a.d.j=a.a.l);s(a.a.o)||(a.h=a.a.o);var c=a.c.childNodes[3].childNodes[1];-1<navigator.userAgent.toLowerCase().indexOf("msie")&&(c.style.visibility="hidden");a.c.childNodes[4].onmouseover=function(){c.style.opacity=1;if(navigator.userAgent.toLowerCase().indexOf("msie")>-1)c.style.visibility="visible"};a.c.childNodes[4].onmouseout=function(){c.style.opacity=0;if(navigator.userAgent.toLowerCase().indexOf("msie")>
+-1)c.style.visibility="hidden"};u(a)}function v(a){var c=parseInt(((new Date).getTime()-a.e.getTime())/((a.g.getTime()-a.e.getTime())/100),10);100<c?c=100:0>c&&(c=0);a.c.childNodes[4].childNodes[0].style.width=c+"%"}
+function u(a){var c=new Date;if(c.getTime()>a.e.getTime()){var c=a.g.getTime()-c.getTime(),e="00",h="00",j="00",d="00";0<c&&(e=Math.floor(1*(c/864E5)),h=Math.floor(1*(c%864E5/36E5)),j=Math.floor(1*(c%864E5%36E5/6E4)),d=Math.floor(1*(c%864E5%36E5%6E4/1E3)),h=w(h),j=w(j),d=w(d));ddayStr='<span class="lux-countdown-days">'+e+"</span>";dhourStr='<span class="lux-countdown-hours">'+h+"</span>";dminStr='<span class="lux-countdown-mins">'+j+"</span>";dsecStr='<span class="lux-countdown-dsec">'+d+"</span>";
+h=ddayStr+(1<e?a.d.j:a.d.k)+dhourStr+a.f+dminStr+a.f+dsecStr;0>=e&&(h=dhourStr+a.f+dminStr+a.f+dsecStr);a.c.childNodes[2].childNodes[0].innerHTML=h;v(a);0<c&&(t=setTimeout(function(){u(a)},500))}else h=a.h,a.c.childNodes[2].childNodes[0].innerHTML=h}function w(a){10>a&&(a="0"+a);return a};
+// Input 2
+window.onload=function(){new o};window.onload=document.getElementById("app_showdown_widget_01").appendChild(b.c);
 </script>
 
   
