@@ -1,6 +1,6 @@
 cb ( {"html":"<!-- Ubuntu App Showdown Widget http:\/\/www.brandonholtsclaw.com\/. Copyright 2012 Brandon Holtsclaw. -->\n\n<style>p{padding:0px;margin:0px;}</style>
-  <script type='text\/javascript' src='http:\/\/www.assets-online.com\/widgets\/ubuntu-app-showdown\/light\/luxUtilities.min.js?asset_tag=4f30fce72ab36fc9eb64f8b352651b1e'><\/script>
-  <script type='text\/javascript' src='http:\/\/www.assets-online.com\/widgets\/ubuntu-app-showdown\/light\/luxCountdown.min.js?asset_tag=4f30fce72ab36fc9eb64f8b352651b1e'></script>
+  <script type='text\/javascript' src='http:\/\/bholtsclaw.github.com\/assets\/widget\/light\/luxUtilities.min.js?asset_tag=4f30fce72ab36fc9eb64f8b352651b1e'><\/script>
+  <script type='text\/javascript' src='http:\/\/bholtsclaw.github.com\/assets\/widget\/light\/luxCountdown.min.js?asset_tag=4f30fce72ab36fc9eb64f8b352651b1e'></script>
   <script type='text\/javascript' src='\/\/use.typekit.com\/cvz7ckq.js?asset_tag=4f30fce72ab36fc9eb64f8b352651b1e'></script>
   <script type='text\/javascript'>try{Typekit.load();}catch(e){}</script>
   <script type='text\/javascript'>
