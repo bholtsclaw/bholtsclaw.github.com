@@ -81,7 +81,7 @@
       $("<link>", {rel:"stylesheet", type:"text/css", href:"http://bholtsclaw.github.com/showdown/1/full.min.css?v=42"}).appendTo("head");
       //$.getScript('http://bholtsclaw.github.com/showdown/1/luxUtilities.min.js?ver=42');
       //$.getScript('http://bholtsclaw.github.com/showdown/1/luxCountdown.min.js?ver=42');
-      $('head').appendTo('http://bholtsclaw.github.com/showdown/1/full.js?v=42');
+      $.getScript('http://bholtsclaw.github.com/showdown/1/full.js?v=42', function(){
         var c=new Date(2012, 6, 9, 23, 59, 0, 0);
         var b=new Date(2012, 5, 18, 0, 0, 0, 1);
   	    var a=new luxCountdown ({
@@ -92,7 +92,8 @@
         startText: '',
         endText: ''
       });
-      $('#showdown-widget-1').html(a.getCountdown());
+  	});
+    $('#showdown-widget-1').html(a.getCountdown());
     });
   }
 })();
