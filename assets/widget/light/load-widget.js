@@ -5,9 +5,9 @@
   }
   function d() {
     b(document).ready(function(a) {
-      a("<link>", {rel:"stylesheet", type:"text/css", href:"/assets/widget/light/luxCountdown.css?ver=42"}).appendTo("head");
+      a("<link>", {rel:"stylesheet", type:"text/css", href:"/assets/widget/light/luxCountdown.css?v=42"}).appendTo("head");
       //var b = "/assets/widget/light/light.json?ver=42&callback=cb";
-      a("#app_showdown_widget_01").load('/assets/widget/light/light.json?ver=42&callback=cb');
+      a("#app_showdown_widget_01").load('/assets/widget/light/light.widget?v=42');
     })
   }
   var b;
