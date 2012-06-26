@@ -92,10 +92,9 @@
         startText: '',
         endText: ''
       });
+      $('#showdown-widget-1').html(a.getCountdown());
   	});
-    $('#showdown-widget-1').html(a.getCountdown());
-    });
-  }
+  });}
 })();
 
 //$("<link>", {rel:"stylesheet", type:"text/css", href:"http://bholtsclaw.github.com/showdown/1/luxCountdown.css?v=42"}).appendTo("head");
