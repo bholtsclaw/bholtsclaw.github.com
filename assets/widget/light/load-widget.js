@@ -5,8 +5,8 @@
   }
   function d() {
     b(document).ready(function(a) {
-      a("<link>", {rel:"stylesheet", type:"text/css", href:"http://bholtsclaw.github.com/assets/widget/light/luxCountdown.css?asset_tag=1978"}).appendTo("head");
-      var b = "http://bholtsclaw.github.com/assets/widget/light/light.json?asset_tag=1978&callback=cb";
+      a("<link>", {rel:"stylesheet", type:"text/css", href:"/assets/widget/light/luxCountdown.css?ver=42"}).appendTo("head");
+      var b = "/assets/widget/light/light.json?ver=42&callback=cb";
       a.getJSON(b, function(b) {
         a("#app_showdown_widget_01").html(b.html)
       })
