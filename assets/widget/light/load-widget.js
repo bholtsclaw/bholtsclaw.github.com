@@ -8,7 +8,7 @@
       a("<link>", {rel:"stylesheet", type:"text/css", href:"/assets/widget/light/luxCountdown.css?v=42"}).appendTo("head");
       //var b = "/assets/widget/light/light.json?ver=42&callback=cb";
       a("#app_showdown_widget_01").load('/assets/widget/light/light.widget?v=42');
-    })
+    });
   }
   var b;
   if(void 0 === window.jQuery || "1.7.2" !== window.jQuery.fn.jquery) {
