@@ -1,55 +1,14 @@
-//<!-- Ubuntu App Showdown Widget http://www.brandonholtsclaw.com/. Copyright 2012 Brandon Holtsclaw. -->
-/*
-(function() {
-  var ubjQuery;
-
-  if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.7.2') {
-    var script_tag = document.createElement('script');
-    script_tag.setAttribute("type", "text/javascript");
-    script_tag.setAttribute("src", "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js");
-    if (script_tag.readyState) {
-      script_tag.onreadystatechange = function () {
-        if (this.readyState === 'complete' || this.readyState === 'loaded') { scriptLoadHandler(); }
-      };
-    } else {
-      script_tag.onload = scriptLoadHandler;
-    }
-    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
-  } else {
-    ubjQuery = window.jQuery;
-    main();
-  }
-
-  function scriptLoadHandler() {
-    ubjQuery = window.jQuery.noConflict(true);
-    main(); 
-  }
-
-  function getUrlVars() {
-    var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-      vars[key] = value;
-    });
-    return vars;
-  }
-  
-  function main() { 
-    ubjQuery(document).ready(function($) {
-      var css_link = $("<link>", { 
-        rel: "stylesheet",
-        type: "text/css", 
-        href: "http://bholtsclaw.github.com/assets/buttons/download-for-ubuntu.css" 
-      });
-      css_link.appendTo('head');
-      var dfuLink = $('#download-for-ubuntu').data().link; 
-      var jsonp_url = "http://api.websitedevops.com/json?req=download-for-ubuntu&linkto="+dfuLink+"&callback=?";
-      $.getJSON(jsonp_url, function(data) {
-        $('#download-for-ubuntu').html(data.html);
-      });
-    });
-  }
-})();
-*/
+//<!--
+//  ====== Ubuntu App Showdown Widget ====== (Idea from @mhall119 asked if I could make one, Thanks!)
+/// -- @SEE http://developer.ubuntu.com for official Showdown info, and my site below 2 reach me
+/// -- 
+/// -- Made with Love by bholtsclaw@github or +Brandon Holtsclaw on G+,got a Qestion? Why not 
+/// -- Invite me to Hangout on G+ and we'll try to solve realtime sharing a Screen & Voice !
+/// -- 
+/// -- I make cool things, mostly on the Web, I do it by Consulting Freelance so if you have a 
+/// -- unique problem you'd like to confidentially go over with me just use any of my contacts.
+/// -- You can find my website @ http://www.brandonholtsclaw.com with links to Referals and More.
+/// ------>
 
 (function() {
   var ubjQuery;
