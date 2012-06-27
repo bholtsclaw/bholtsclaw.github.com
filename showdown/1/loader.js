@@ -1,13 +1,18 @@
-//<!--
-//  ====== Ubuntu App Showdown Widget ====== (Idea from @mhall119 asked if I could make one, Thanks!)
-/// -- @SEE http://developer.ubuntu.com for official Showdown info, and my site below 2 reach me
+/// <!------
+/// ====== Ubuntu App Showdown Widget ====== (Idea from @mhall119 asked if I could make one, Thanks!)
+/// --
+/// -- @SEE: http://developer.ubuntu.com Official Showdown! Site, mine are down below & lists contacts. 
 /// -- 
-/// -- Made with Love by bholtsclaw@github or +Brandon Holtsclaw on G+,got a Qestion? Why not 
-/// -- Invite me to Hangout on G+ and we'll try to solve realtime sharing a Screen & Voice !
-/// -- 
+/// -- @File: loader.js (browset) widget loader for the Ubuntu App Showdown Competion 4 any website!
+/// -- Made with Love by bholtsclaw@github / +Brandon Holtsclaw on G+,got a Qestion? Perfet, just 
+/// -- Invite me to Hangout on G+ and we'll try to solve realtime sharing a Screen & Voice ! /~~~~~~/
+/// --
+/// -- @About me:
 /// -- I make cool things, mostly on the Web, I do it by Consulting Freelance so if you have a 
 /// -- unique problem you'd like to confidentially go over with me just use any of my contacts.
-/// -- You can find my website @ http://www.brandonholtsclaw.com with links to Referals and More.
+/// -- My website @ http://www.brandonholtsclaw.com ,Referals for stuff I use & Tips are always cool.
+/// -- Once upon a time I would try to keep 40 to 100 nodes up and consistant as well as uptodate and 
+/// -- custom build env too, overwelmed! Now I turn on and off that many almost daily on jujuo EC2!!.
 /// ------>
 
 (function() {
@@ -29,12 +34,10 @@
     ubjQuery = window.jQuery;
     main();
   }
-
   function scriptLoadHandler() {
     ubjQuery = window.jQuery.noConflict(true);
     main(); 
   }
-
   function main() { 
     ubjQuery(document).ready(function($) {
       $("<link>", {rel:"stylesheet", type:"text/css", href:"http://bholtsclaw.github.com/showdown/1/full.min.css?v=42"}).appendTo("head");
@@ -55,20 +58,7 @@
   	});
   });}
 })();
-
-//$("<link>", {rel:"stylesheet", type:"text/css", href:"http://bholtsclaw.github.com/showdown/1/luxCountdown.css?v=42"}).appendTo("head");
-//$.getScript('http://bholtsclaw.github.com/showdown/1/luxUtilities.min.js?ver=42');
-//$.getScript('http://bholtsclaw.github.com/showdown/1/luxCountdown.min.js?ver=42');
-
-//<!-- partial html or one element and its children -->
-//$("#app_showdown_widget_01").load('http://bholtsclaw.github.com/showdown/1/rendered.html #some_optional_div_id');
-
-// Ajax flexable get/post with success and failure callbacks, complex compared but powerful
-//$.ajax({
-//  url:"/showdown/1/showdown.json",
-//  type:"GET",
-//  data:data,
-//  dataType:"json",
-//  success: function(data){
-//    $('#app_showdown_widget_01').html(data.html);
-//  });
+/// <!-- google-analytics -->
+var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-1997599-9']);_gaq.push(['_setDomainName','ubuntu.com']);_gaq.push(['_trackPageview']);
+(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src='https://ssl.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();
+/// <!-- google-analytics -->
