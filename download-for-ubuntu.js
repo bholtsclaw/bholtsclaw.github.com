@@ -20,7 +20,7 @@
 
   function scriptLoadHandler() {
     ubjQuery = window.jQuery.noConflict(true);
-    main(); 
+    main();
   }
 
   function getUrlVars() {
@@ -30,20 +30,10 @@
     });
     return vars;
   }
-  
-  function main() { 
+
+  function main() {
     ubjQuery(document).ready(function($) {
-      var css_link = $("<link>", { 
-        rel: "stylesheet",
-        type: "text/css", 
-        href: "http://bholtsclaw.github.com/assets/buttons/download-for-ubuntu.css" 
-      });
-      css_link.appendTo('head');
-      var dfuLink = $('#download-for-ubuntu').data().link; 
-      var jsonp_url = "http://www.assets-online.com/api/json/download-button/ubuntu.php?linkto="+dfuLink+"&callback=?";
-      $.getJSON(jsonp_url, function(data) {
-        $('#download-for-ubuntu').html(data.html);
-      });
+      $('#download-for-ubuntu').html('<style>.download4ubu{margin:3px;display:block;width:204px;height:80px;background:url("http://bholtsclaw.github.com/i/ubuntu-button.png");}</style><a class="download4ubu" href="'+$('#download-for-ubuntu').data().link+'"></a>');
     });
   }
 })();
