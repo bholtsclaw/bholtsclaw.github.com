@@ -109,6 +109,7 @@ span.ufont {
   margin: 0;
   padding: 0;
   text-shadow: 1px 0 0 #000;
+  content: "Times Up!";
 }
 .lux-countdown-countdownBar {
   width: 294px !important;
@@ -153,4 +154,5 @@ span.ufont {
   background-image: -ms-linear-gradient(top, rgba(209, 182, 197, 0.75), #7a2d56);
   background-image: linear-gradient(top, rgba(209, 182, 197, 0.75), #7a2d56);
   height: 25px;
+  width: 290px;
 }
