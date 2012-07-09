@@ -41,7 +41,7 @@
       $("<link>", {rel:"stylesheet", type:"text/css", href:"http://bholtsclaw.github.com/showdown/1/full.min.css?v=42"}).appendTo("head");
       $.getScript('http://bholtsclaw.github.com/showdown/1/full.js?v=42', function(){
         var c=new Date(2012, 6, 9, 23, 59, 0, 0);
-        var b=new Date(2012, 6, 9, 23, 59, 0, 0);
+        var b=new Date(2012, 6, 9, 23, 59, 0, 1);
   	    var a=new luxCountdown ({
         title: "<a class='showdown' href='http://developer.ubuntu.com/showdown?from=widget' _target='_top'><img id='app-showdown-widget-logo' src='https://developer.ubuntu.com/wp-content/themes/wordpress-theme-ubuntudeveloper/img/logo-ubuntu.png'><span class='app_showdown_widget_header'><span class='ufont'>App Developer</span></span> <div id='app_showdown_widget_action_title'><span class='ufont'><em>Showdown !</em></span></div></a>",
         text: "<br><hr size='1' noshadow shadow='none' color='#ccc' border-color='#ccc' style='width: 95%;padding: -25px 0 0 0;' /><div class='showdown-copy'><span class='ufont'>ubuntu's</span> <a class='showdown' href='//developer.ubuntu.com'>Developer Community</a> is growing. Come Check out the new <a class='showdown' href='//developer.ubuntu.com/'>Ubuntu Dev Portal</a>. We send twitter status updates <a class='showdown' href='//twitter.com/ubuntuappdev'>@ubuntuappdev</a></div><hr size='1' noshadow shadow='none' color='#ccc' border-color='#ccc' style='width: 95%;padding: -25px 0 0 0;'/></div>",
